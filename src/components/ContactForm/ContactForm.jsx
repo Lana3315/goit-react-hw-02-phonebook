@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 export class ContactForm extends Component {
   state = {
     name: '',
@@ -35,6 +35,7 @@ export class ContactForm extends Component {
             placeholder="Enter name"
             value={name}
             onChange={this.handleChange}
+
           />
         </label>
         <label>
